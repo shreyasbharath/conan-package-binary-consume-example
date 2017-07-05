@@ -1,0 +1,9 @@
+[requires]
+Test/0.1@myuser/testing
+
+[generators]
+txt
+
+[imports]
+include, *.h -> ./include   # Copies all header files from packages include folders to local "include" folder
+include, *.hpp -> ./include # Copies all header files from packages include folders to local "include" folder
